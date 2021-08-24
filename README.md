@@ -2,7 +2,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License](https://img.shields.io/github/license/mutazen/Your-cocktail.svg?style=for-the-badge)][license-url]
+[![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -254,10 +254,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [stars-url]: https://github.com/mutazen/Your-cocktail/stargazers
 [issues-shield]: https://img.shields.io/github/issues/mutazen/Your-cocktail.svg?style=for-the-badge
 [issues-url]: https://github.com/mutazen/Your-cocktail/issues
-[license-shield]: https://img.shields.io/github/license/mutazen/Your-cocktail.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/mutazen/Your-cocktail.svg?style=for-the-badge&
 [license-url]: https://github.com/mutazen/Your-cocktail/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/jeremycamacholugo/
 [product-screenshot]: src/assets/screenshot.jpg
 [screenshot-search-name1]: readme-images/screenshot-search-name1.jpg
 [screenshot-search-name2]: readme-images/screenshot-search-name2.jpg
@@ -280,7 +280,3 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [screenshot-show-cocktail-info2]: readme-images/screenshot-show-cocktail-info2.jpg
 [screenshot-show-ingredient-info1]: readme-images/screenshot-show-ingredient-info1.jpg
 [screenshot-show-ingredient-info2]: readme-images/screenshot-show-ingredient-info2.jpg
-
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
