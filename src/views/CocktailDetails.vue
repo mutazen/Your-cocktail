@@ -14,7 +14,7 @@
           "
         >
           <div class="col">
-            <span class="h3">Cocktail's Information</span>
+            <span class="h4">Cocktail's Information</span>
           </div>
         </div>
         <div class="row px-0 border border-3 border-dark">
@@ -35,7 +35,7 @@
           </div>
           <div
             class="
-              col-4
+              col-5
               d-none d-md-block d
               px-0
               border-end border-3 border-dark
@@ -47,12 +47,12 @@
               style="height: 100%; width: 100%"
             />
           </div>
-          <div class="col-12 col-md-8 px-0">
+          <div class="col-12 col-md-7 px-0">
             <div class="border-bottom border-3 border-dark pt-1 section-header">
-              <span class="h4">Cocktail's name</span>
+              <span class="h5">Cocktail's name</span>
             </div>
             <div class="py-1">
-              <span class="h4">{{ cocktail.strDrink }}</span>
+              <span class="fs-6">{{ cocktail.strDrink }}</span>
             </div>
             <div
               class="
@@ -61,10 +61,10 @@
                 section-header
               "
             >
-              <span class="h4">Cocktail's category</span>
+              <span class="h5">Cocktail's category</span>
             </div>
             <div class="py-1">
-              <span class="h4">{{ cocktail.strCategory }}</span>
+              <span class="fs-6">{{ cocktail.strCategory }}</span>
             </div>
             <div
               class="
@@ -73,10 +73,10 @@
                 section-header
               "
             >
-              <span class="h4">Cocktail's drink type</span>
+              <span class="h5">Cocktail's drink type</span>
             </div>
             <div class="py-1">
-              <span class="h4">{{ cocktail.strAlcoholic }}</span>
+              <span class="fs-6">{{ cocktail.strAlcoholic }}</span>
             </div>
             <div
               class="
@@ -85,10 +85,10 @@
                 section-header
               "
             >
-              <span class="h4">Cocktail's glass</span>
+              <span class="h5">Cocktail's glass</span>
             </div>
             <div class="py-1">
-              <span class="h4">{{ cocktail.strGlass }}</span>
+              <span class="fs-6">{{ cocktail.strGlass }}</span>
             </div>
           </div>
         </div>
@@ -102,13 +102,13 @@
         >
           <div class="col px-0">
             <div class="border-bottom border-3 border-dark pt-1 section-header">
-              <span class="h4">Cocktail's preparation instructions</span>
+              <span class="h5">Cocktail's preparation instructions</span>
             </div>
             <div
               class="px-2 py-1 border-bottom border-1 border"
               v-if="this.instructions.length === 0"
             >
-              <span class="h4">-</span>
+              <span class="fs-6">-</span>
             </div>
             <div
               class="px-2 py-1 border-bottom border-1 border"
@@ -116,7 +116,7 @@
               v-for="(instruction, idx) in instructions"
               :key="idx"
             >
-              <span class="h4">{{ instruction }}</span>
+              <span class="fs-6">{{ instruction }}</span>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@
         >
           <div class="col px-0">
             <div class="border-bottom border-3 border-dark pt-1 section-header">
-              <span class="h4">Cocktail's ingredients</span>
+              <span class="h5">Cocktail's ingredients</span>
             </div>
             <div class="list-group">
               <button
@@ -144,7 +144,7 @@
                   })
                 "
               >
-                <span class="h4"
+                <span class="fs-6"
                   >{{ ingredient.measure }} {{ ingredient.name }}</span
                 >
               </button>

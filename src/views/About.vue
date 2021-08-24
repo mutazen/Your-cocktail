@@ -14,7 +14,7 @@
             "
           >
             <div class="col">
-              <span class="h3">About us</span>
+              <span class="h4">About us</span>
             </div>
           </div>
           <div
@@ -27,7 +27,7 @@
             "
           >
             <div class="col">
-              <span class="fs-4">Our objective</span>
+              <span class="h5">Our objective</span>
             </div>
           </div>
           <div
@@ -40,7 +40,7 @@
             "
           >
             <div class="col">
-              <span class="fs-5" style="white-space: pre-line"
+              <span class="fs-6" style="white-space: pre-line"
                 >In simple words, we want to help everyone to find their
                 favorite cocktail. In order to do that, we have developed this
                 web site to give them a way to search information about drinks
@@ -59,7 +59,7 @@
             "
           >
             <div class="col">
-              <span class="fs-4">How we started?</span>
+              <span class="h5">How we started?</span>
             </div>
           </div>
           <div
@@ -72,7 +72,7 @@
             "
           >
             <div class="col">
-              <span class="fs-5" style="white-space: pre-line"
+              <span class="fs-6" style="white-space: pre-line"
                 >This website initially was a result of an exercise of Reboot
                 Academy bootcamp but we keep working on it, giving it more
                 functionalities and making it better because we loved the idea
@@ -92,7 +92,7 @@
             "
           >
             <div class="col">
-              <span class="fs-4">Special thanks</span>
+              <span class="h5">Special thanks</span>
             </div>
           </div>
           <div
@@ -105,7 +105,7 @@
             "
           >
             <div class="col-12">
-              <span class="fs-5" style="white-space: pre-line"
+              <span class="fs-6" style="white-space: pre-line"
                 >We use TheCocktailDB's API as a source of information for this
                 web site. Thanks to them, we are able to offer information about
                 different cocktails and search based on their features.
@@ -113,7 +113,7 @@
             </div>
             <div class="text-center">
               <a href="https://www.thecocktaildb.com/api.php">
-                <span class="fs-5">https://www.thecocktaildb.com/api.php</span>
+                <span class="fs-6">https://www.thecocktaildb.com</span>
               </a>
             </div>
           </div>
@@ -127,7 +127,7 @@
             "
           >
             <div class="col">
-              <span class="fs-4">Autors</span>
+              <span class="h4">Autors</span>
             </div>
           </div>
           <div
@@ -153,7 +153,7 @@
                     border-end border-start border-top border-1 border-dark
                   "
                 >
-                  <div class="col fs-4 text-center headTitle">
+                  <div class="col fs-5 text-center my-0 headTitle">
                     Daniel Saavedra
                   </div>
                 </div>
@@ -163,7 +163,7 @@
                     border-end border-start border-top border-1 border-dark
                   "
                 >
-                  <div class="col fs-5 my-1">
+                  <div class="col fs-6 my-1">
                     Full-Stack Web Developer, 5 years in International Relations
                     and Intercultural technician
                   </div>
@@ -185,7 +185,7 @@
                       class="d-grid gap-2 mt-2"
                     >
                       <button class="btn btn-primary mb-2" type="button">
-                        <span class="fs-5">Profile in LinkedIn</span>
+                        <span class="fs-6">Profile in LinkedIn</span>
                       </button>
                     </a>
                   </div>
@@ -200,7 +200,7 @@
                     border-end border-start border-top border-1 border-dark
                   "
                 >
-                  <div class="col fs-4 text-center headTitle">
+                  <div class="col fs-5  text-center my-0 headTitle">
                     Jeremy Camacho
                   </div>
                 </div>
@@ -210,9 +210,8 @@
                     border-end border-start border-top border-1 border-dark
                   "
                 >
-                  <div class="col fs-5 my-1">
-                    Full-Stack Web Developer. 2 years as web developers in ONGs,
-                    autodidact and passionate of new tech
+                  <div class="col fs-6 my-1">
+                    Full-Stack Web Developer. 2 years as web developers in ONGs and autodidact
                   </div>
                 </div>
                 <div
@@ -232,7 +231,7 @@
                       class="d-grid gap-2 mt-2"
                     >
                       <button class="btn btn-primary mb-2" type="button">
-                        <span class="fs-5">Profile in LinkedIn</span>
+                        <span class="fs-6">Profile in LinkedIn</span>
                       </button>
                     </a>
                   </div>

@@ -11,7 +11,7 @@
       "
     >
       <div class="col">
-        <span class="h3"
+        <span class="h5"
           >{{title}}</span
         >
       </div>
@@ -33,7 +33,7 @@
             })
           "
         >
-          <span class="fs-4">
+          <span class="fs-6">
             {{ cocktail.strDrink }}
           </span>
         </button>

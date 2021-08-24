@@ -22,7 +22,7 @@
           "
           alt=""
         />
-        <span class="h3 pb-1" style="diplay: block"
+        <span class="fs-3 fs-lg-4 pb-1" style="diplay: block"
           >The place where you can find the drink of your dreams</span
         >
       </div>
@@ -39,7 +39,7 @@
             "
           >
             <div class="col">
-              <span class="h3">Featured cocktail</span>
+              <span class="h5">Featured cocktail</span>
             </div>
           </div>
           <div class="row px-0 rounded-bottom border border-3 border-dark">
@@ -54,10 +54,10 @@
               <div
                 class="border-bottom border-3 border-dark pt-1 section-header"
               >
-                <span class="h4">Cocktail's name</span>
+                <span class="fs-6">Cocktail's name</span>
               </div>
               <div>
-                <span class="h4">{{ cocktailFeatured.strDrink }}</span>
+                <span class="fs-6">{{ cocktailFeatured.strDrink }}</span>
               </div>
               <div
                 class="
@@ -67,10 +67,10 @@
                   section-header
                 "
               >
-                <span class="h4">Cocktail's category</span>
+                <span class="fs-6">Cocktail's category</span>
               </div>
               <div class="d-none d-xl-block">
-                <span class="h4">{{ cocktailFeatured.strCategory }}</span>
+                <span class="fs-6">{{ cocktailFeatured.strCategory }}</span>
               </div>
 
               <div class="border-top border-3 border-dark">
@@ -89,7 +89,7 @@
                       })
                     "
                   >
-                    <span class="h5">More info</span>
+                    <span class="fs-6">+ info</span>
                   </button>
                 </div>
               </div>
@@ -112,7 +112,7 @@
         <span class="h2" style="font-weight: bold"
           >Search your cocktail by their category</span
         >
-        <span class="h3 pb-1" style="diplay: block"
+        <span class="fs-3 fs-lg-4 pb-2" style="diplay: block"
           >Find your cocktail more easily, choosing their category</span
         >
         <button
@@ -126,6 +126,7 @@
             mx-auto
             border border-2 border-dark
             buttonTitle
+            fs-6
           "
           @click="$router.push({ name: 'CategoryList' })"
         >
@@ -153,7 +154,7 @@
         <span class="h2" style="font-weight: bold"
           >Search your cocktail by their ingredients</span
         >
-        <span class="h3 pb-1" style="diplay: block"
+        <span class="fs-3 fs-lg-4 pb-2" style="diplay: block"
           >Start looking for your cocktail by their ingredients</span
         >
         <button
@@ -164,10 +165,12 @@
             gap-2
             col-3
             py-2
+            fs-6
             mx-auto
             border border-2 border-dark
             buttonTitle
           "
+           @click="$router.push({ name: 'IngredientList' })"
         >
           Try it!
         </button>

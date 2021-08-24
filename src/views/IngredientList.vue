@@ -14,7 +14,7 @@
             "
           >
             <div class="col">
-              <span class="h3">Ingredients</span>
+              <span class="h4">Ingredients</span>
             </div>
           </div>
           <div

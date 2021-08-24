@@ -12,46 +12,46 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/Your-cocktail/',
     name: 'Home',
     component: Home
   },
   {
-    path: '/about',
+    path: '/Your-cocktail/about',
     name: 'About',
     component: () =>
       import(/* webpackChunkName: 'about' */ '../views/About.vue')
   },
   {
-    path: '/types',
+    path: '/Your-cocktail/types',
     name: 'TypeList',
     component: TypeList
   },
   {
-    path: '/categories',
+    path: '/Your-cocktail/categories',
     name: 'CategoryList',
     component: CategoryList
   },
   {
-    path: '/ingredients',
+    path: '/Your-cocktail/ingredients',
     name: 'IngredientList',
     component: IngredientList
   },
   {
-    path: '/cocktail/:cocktailId',
+    path: '/Your-cocktail/cocktail/:cocktailId',
     alias: '/cocktails/:cocktailId',
     name: 'CocktailDetails',
     component: CocktailDetails,
     props: true
   },
   {
-    path: '/searchCocktail/',
+    path: '/Your-cocktail/searchCocktail/',
     name: 'SearchCocktail',
     component: SearchCocktail,
     props: true
   },
   {
-    path: '/ingredient/:ingredientId',
+    path: '/Your-cocktail/ingredient/:ingredientId',
     name: 'IngredientDetails',
     component: IngredientDetails,
     props: true

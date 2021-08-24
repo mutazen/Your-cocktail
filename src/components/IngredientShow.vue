@@ -1,7 +1,7 @@
 <template>
   <div
     class="card border border-3 border-dark"
-    style="width: 18rem; background-color: black"
+    style="width: 15rem; background-color: black"
   >
     <img
       class="card-img-top border-bottom border-3 border-dark ingredient-show-img"

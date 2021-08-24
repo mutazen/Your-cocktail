@@ -1,5 +1,5 @@
 <template>
-  <div class="card border border-3 border-dark" style="width: 18rem; background-color: black;">
+  <div class="card border border-3 border-dark" style="width: 15rem; background-color: black;">
     <img :src="cocktail.strDrinkThumb" class="card-img-top border-bottom border-3 border-dark" :alt="cocktail.strDrink" style="background-color:black" />
     <div class="card-body d-flex justify-content-center align-items-center" style="height:4rem">
       <span class="card-title h5 my-0">{{cocktail.strDrink}}</span>

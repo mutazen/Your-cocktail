@@ -14,7 +14,7 @@
             "
           >
             <div class="col">
-              <span class="h3">Types</span>
+              <span class="h4">Types</span>
             </div>
           </div>
           <div class="row px-0 rounded-bottom border border-3 border-dark">
@@ -29,7 +29,7 @@
                   })
                 "
               >
-                <span class="fs-4">
+                <span class="fs-6">
                   {{ type.strAlcoholic }}
                 </span>
               </button>

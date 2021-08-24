@@ -14,7 +14,7 @@
             "
           >
             <div class="col">
-              <span class="h3">Categories</span>
+              <span class="h4">Categories</span>
             </div>
           </div>
           <div class="row px-0 rounded-bottom border border-3 border-dark">
@@ -33,7 +33,7 @@
                   })
                 "
               >
-                <span class="fs-4">
+                <span class="fs-6">
                   {{ category.strCategory }}
                 </span>
               </button>

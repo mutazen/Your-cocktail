@@ -12,7 +12,7 @@
             alt=""
             style="height: 30px; width: 26px"
           />
-          <span class="h3 m-auto ps-1" style="color: black">
+          <span class="h4 m-auto ps-1" style="color: black">
             Your cocktail
           </span>
         </button>
@@ -30,18 +30,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <router-link to="/types" class="nav-link h4 m-auto"
+              <router-link to="/Your-cocktail/types" class="nav-link h4 m-auto"
                 >Types</router-link
               >
             </li>
 
             <li class="nav-item">
-              <router-link to="/categories" class="nav-link h4 m-auto"
+              <router-link to="/Your-cocktail/categories" class="nav-link h4 m-auto"
                 >Categories</router-link
               >
             </li>
             <li class="nav-item">
-              <router-link to="/ingredients" class="nav-link h4 m-auto"
+              <router-link to="/Your-cocktail/ingredients" class="nav-link h4 m-auto"
                 >Ingredients</router-link
               >
             </li>
@@ -72,7 +72,7 @@
     <footer>
       <nav class="navbar navbar-dark bg-dark">
         <div class="container d-flex justify-content-center">
-          <router-link to="/about" class="nav-link navbar-text footer-link"
+          <router-link to="/Your-cocktail/about" class="nav-link navbar-text footer-link"
             >ABOUT US</router-link
           >
           <span class="navbar-text">Reboot_bootcamp@2021</span>
@@ -96,7 +96,6 @@ export default {
         if (Object.keys(this.$route.query).includes("name")) {
           let newQuery = this.$route.query;
           delete newQuery.name;
-          console.log(newQuery);
           this.$router.push({
             name: "SearchCocktail",
             query: { ...newQuery },
@@ -112,8 +111,6 @@ export default {
   },
 };
 </script>
-
-
 
 <style>
 #app {

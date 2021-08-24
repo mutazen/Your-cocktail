@@ -14,7 +14,7 @@
           "
         >
           <div class="col">
-            <span class="h3">Ingredient's Information</span>
+            <span class="h4">Ingredient's Information</span>
           </div>
         </div>
         <div class="row px-0 border border-3 border-dark">
@@ -23,7 +23,7 @@
           </div>
           <div
             class="
-              col-4
+              col-5
               d-none d-md-block d
               px-0
               border-end border-3 border-dark
@@ -31,12 +31,12 @@
           >
             <img :src="image" alt="" style="height: 100%; width: 100%" />
           </div>
-          <div class="col-12 col-md-8 px-0">
+          <div class="col-12 col-md-7 px-0">
             <div class="border-bottom border-3 border-dark pt-1 section-header">
-              <span class="h4">Ingredient's name</span>
+              <span class="h5">Ingredient's name</span>
             </div>
             <div class="py-1">
-              <span class="h4">{{ ingredient.strIngredient }}</span>
+              <span class="fs-6">{{ ingredient.strIngredient }}</span>
             </div>
             <div
               class="
@@ -45,11 +45,11 @@
                 section-header
               "
             >
-              <span class="h4">Ingredient's type</span>
+              <span class="h5">Ingredient's type</span>
             </div>
             <div class="py-1">
-              <span class="h4" v-if="ingredient.strType === null">-</span>
-              <span class="h4" v-else>{{ ingredient.strType }}</span>
+              <span class="fs-6" v-if="ingredient.strType === null">-</span>
+              <span class="fs-6" v-else>{{ ingredient.strType }}</span>
             </div>
             <div
               class="
@@ -58,11 +58,11 @@
                 section-header
               "
             >
-              <span class="h4">It has alcohol? </span>
+              <span class="h5">It has alcohol? </span>
             </div>
             <div class="py-1">
-              <span class="h4" v-if="ingredient.strAlcohol === null">-</span>
-              <span class="h4" v-else>{{ ingredient.strAlcohol }}</span>
+              <span class="fs-6" v-if="ingredient.strAlcohol === null">-</span>
+              <span class="fs-6" v-else>{{ ingredient.strAlcohol }}</span>
             </div>
             <div
               class="
@@ -71,11 +71,11 @@
                 section-header
               "
             >
-              <span class="h4">Alcohol by volume</span>
+              <span class="h5">Alcohol by volume</span>
             </div>
             <div class="py-1">
-              <span class="h4" v-if="ingredient.strABV === null">-</span>
-              <span class="h4" v-else>{{ ingredient.strABV }}%</span>
+              <span class="fs-6" v-if="ingredient.strABV === null">-</span>
+              <span class="fs-6" v-else>{{ ingredient.strABV }}%</span>
             </div>
           </div>
         </div>
@@ -88,17 +88,17 @@
         >
           <div class="col px-0">
             <div class="border-bottom border-3 border-dark pt-1 section-header">
-              <span class="h4">Ingredient's description</span>
+              <span class="h5">Ingredient's description</span>
             </div>
             <div
               class="px-2 py-1 border-bottom border-1 border"
               v-if="this.ingredient.strDescription === null"
             >
-              <span class="h4">-</span>
+              <span class="fs-6">-</span>
             </div>
             <div class="px-2 py-1 border-bottom border-1 border mh-50" v-else>
               <p
-                class="text-start text-break fs-4 my-0"
+                class="text-start text-break fs-6 my-0"
                 style="white-space: pre-line"
               >
                 {{ ingredient.strDescription }}
@@ -114,7 +114,7 @@
             border-bottom border-end border-start border-3 border-dark
           "
         >
-          <div class="col px-0 py-2">
+          <div class="col px-2 py-2">
             <button
               class="btn btn-light border border-2 border-dark buttonTitle"
               type="button"
@@ -125,7 +125,7 @@
                 })
               "
             >
-              <span class="h4">Cocktails that use this ingredient</span>
+              <span class="fs-5">Cocktails that use this ingredient</span>
             </button>
           </div>
         </div>

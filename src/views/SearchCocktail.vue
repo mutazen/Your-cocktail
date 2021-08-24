@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-3 col-xl-3 col-xxl-2 d-none d-lg-block pt-4 px-0">
+      <div class="col-lg-4 col-xl-4 col-xxl-3 d-none d-lg-block pt-4 px-0">
         <SearchCocktailFilter />
       </div>
       <div
@@ -23,7 +23,7 @@
           <SearchCocktailFilter />
         </div>
       </div>
-      <div class="col-md-12 col-lg-9 col-xl-9 col-xxl-10 px-0">
+      <div class="col-md-12 col-lg-8 col-xl-8 col-xxl-9 px-0">
         <div class="container-fluid">
           <div class="row pt-4">
             <div class="col text-center position-relative">
