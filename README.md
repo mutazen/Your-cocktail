@@ -138,22 +138,62 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 <!-- USAGE EXAMPLES -->
 ## Usage
 ### Search cocktail by name
+<p>
+  To search a cocktail by its name, we can introduce its name into the input in the right side of the navbar and press the enter key or click on the 
+  magnifying glass button.
+</p>
+<p>
+  In this example, we are going to search for cocktails with the word "smoothie" in their name. So we write "smoothie" in the input and press the enter key. 
+</p>
 
 ![Screen Shot Seaching by name 1][screenshot-search-name1]
+
+<p>
+  In this new screen, we can see all the cocktails that we have in our database that containts the word "smoothie" in their name. In this case, there are 7 cocktails that match the pattern.
+</p>
+
+![Screen Shot Seaching by name 2][screenshot-search-name2]
+
 ### Search cocktail by type
+![Screen Shot Seaching by type 1][screenshot-search-type1]
+![Screen Shot Seaching by type 2][screenshot-search-type2]
+![Screen Shot Seaching by type 3][screenshot-search-type3]
+
 ### Search cocktail by category
+![Screen Shot Seaching by category 1][screenshot-search-category1]
+![Screen Shot Seaching by category 2][screenshot-search-category2]
+![Screen Shot Seaching by category 3][screenshot-search-category3]
+
 ### Search cocktail by ingredient
+![Screen Shot Seaching by ingredient 1][screenshot-search-ingredient1]
+![Screen Shot Seaching by ingredient 2][screenshot-search-ingredient2]
+![Screen Shot Seaching by ingredient 3][screenshot-search-ingredient3]
+
 ### Filter results by type
+![Screen Shot Filer Results by type 1][screenshot-filter-type1]
+![Screen Shot Filer Results by type 2][screenshot-filter-type2]
+
 ### Filter results by category
+![Screen Shot Filer Results by category 1][screenshot-filter-category1]
+![Screen Shot Filer Results by category 2][screenshot-filter-category2]
+
 ### Filter results by ingredient
+![Screen Shot Filer Results by ingredient 1][screenshot-filter-ingredient1]
+![Screen Shot Filer Results by ingredient 2][screenshot-filter-ingredient2]
+
 ### Show cocktail information
+![Screen Shot Cocktail Information 1][screenshot-show-cocktail-info1]
+![Screen Shot Cocktail Information 2][screenshot-show-cocktail-info2]
+
 ### Show ingredient information
+![Screen Shot Ingredient Information 1][screenshot-show-ingredient-info1]
+![Screen Shot Ingredient Information 2][screenshot-show-ingredient-info2]
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mutazen/Your-cocktail/issues) for a list of proposed features (and known issues).
 
 
 
@@ -222,8 +262,24 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [screenshot-search-name1]: readme-images/screenshot-search-name1.jpg
 [screenshot-search-name2]: readme-images/screenshot-search-name2.jpg
 [screenshot-search-type1]: readme-images/screenshot-search-type1.jpg
-
-
+[screenshot-search-type2]: readme-images/screenshot-search-type2.jpg
+[screenshot-search-type3]: readme-images/screenshot-search-type3.jpg
+[screenshot-search-category1]: readme-images/screenshot-search-category1.jpg
+[screenshot-search-category2]: readme-images/screenshot-search-category2.jpg
+[screenshot-search-category3]: readme-images/screenshot-search-category3.jpg
+[screenshot-search-ingredient1]: readme-images/screenshot-search-ingredient1.jpg
+[screenshot-search-ingredient2]: readme-images/screenshot-search-ingredient2.jpg
+[screenshot-search-ingredient3]: readme-images/screenshot-search-ingredient3.jpg
+[screenshot-filter-type1]: readme-images/screenshot-filter-type1.jpg
+[screenshot-filter-type2]: readme-images/screenshot-filter-type2.jpg
+[screenshot-filter-category1]: readme-images/screenshot-filter-category1.jpg
+[screenshot-filter-category2]: readme-images/screenshot-filter-category2.jpg
+[screenshot-filter-ingredient1]: readme-images/screenshot-filter-ingredient1.jpg
+[screenshot-filter-ingredient2]: readme-images/screenshot-filter-ingredient2.jpg
+[screenshot-show-cocktail-info1]: readme-images/screenshot-show-cocktail-info1.jpg
+[screenshot-show-cocktail-info2]: readme-images/screenshot-show-cocktail-info2.jpg
+[screenshot-show-ingredient-info1]: readme-images/screenshot-show-ingredient-info1.jpg
+[screenshot-show-ingredient-info2]: readme-images/screenshot-show-ingredient-info2.jpg
 
 
 ### Customize configuration
