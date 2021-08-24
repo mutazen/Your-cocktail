@@ -30,18 +30,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <router-link to="/Your-cocktail/types" class="nav-link h4 m-auto"
+              <router-link
+                to="/Your-cocktail/types"
+                class="nav-link h4 m-auto"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
                 >Types</router-link
               >
             </li>
 
             <li class="nav-item">
-              <router-link to="/Your-cocktail/categories" class="nav-link h4 m-auto"
+              <router-link
+                to="/Your-cocktail/categories"
+                class="nav-link h4 m-auto"
                 >Categories</router-link
               >
             </li>
             <li class="nav-item">
-              <router-link to="/Your-cocktail/ingredients" class="nav-link h4 m-auto"
+              <router-link
+                to="/Your-cocktail/ingredients"
+                class="nav-link h4 m-auto"
                 >Ingredients</router-link
               >
             </li>
@@ -72,7 +80,9 @@
     <footer>
       <nav class="navbar navbar-dark bg-dark">
         <div class="container d-flex justify-content-center">
-          <router-link to="/Your-cocktail/about" class="nav-link navbar-text footer-link"
+          <router-link
+            to="/Your-cocktail/about"
+            class="nav-link navbar-text footer-link"
             >ABOUT US</router-link
           >
           <span class="navbar-text">Reboot_bootcamp@2021</span>
@@ -107,6 +117,14 @@ export default {
           query: { name: this.name },
         });
       }
+    },
+  },
+  watch: {
+    $route() {
+      console.log("hola");
+      console.log(
+        document.getElementById("navbarSupportedContent").slideDown()
+      );
     },
   },
 };
@@ -151,6 +169,6 @@ body {
   );
 }
 .footer-link:hover {
-  color: hsla(360, 100%, 100%, 1)
+  color: hsla(360, 100%, 100%, 1);
 }
 </style>
