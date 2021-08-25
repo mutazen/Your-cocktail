@@ -176,7 +176,7 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 <p>
   At the next screen, we can see the alcoholic cocktails that we have.
 <p>
-  If you pay attention to the filters at the left side of the screen, you can see that the "Alcoholic" option of the drink type list is selected. So if you want to see the other drink types options, you just have to click on them.
+  If you pay attention to the filters at the left side of the screen, you can see that the "Alcoholic" option in the drink type list is selected. So if you want to see the other drink types options, you just have to click on them.
 </p>
 <p>
   As result of the search, we have 100 alcoholic cocktails to show.
@@ -203,7 +203,7 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 <p>
   In this screen, we can see all the ordinary drink cocktails.
 <p>
-  If you pay attention to the filters at the left side of the screen, you can see that the "Ordinary drink" option of the category list is selected. So if you want to see the other categories options, you just have to click on them.
+  If you pay attention to the filters at the left side of the screen, you can see that the "Ordinary drink" option in the category list is selected. So if you want to see the other categories options, you just have to click on them.
 </p>
 <p>
   In this case, we have 100 cocktails that belong to the "ordinary drink" category.
@@ -212,8 +212,31 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 ![Screen Shot Seaching by category 3][screenshot-search-category3]
 
 ### Search cocktail by ingredient
+<p>
+  To start to search a cocktail by its ingredient, we have to click on the "ingredient" button in the navbar.
+</p>
+
 ![Screen Shot Seaching by ingredient 1][screenshot-search-ingredient1]
+
+<p>
+  In this screen, we can see a list of the different ingredient that are been used in the cocktails that we have registered.
+</p>
+<p>
+  In this example, we are going to show cocktails that use "7-Up" as ingredient. So we just have to click on the "7-Up" card in the ingredient list.
+</p>
+
 ![Screen Shot Seaching by ingredient 2][screenshot-search-ingredient2]
+
+
+<p>
+  At the new screen, we can see all the cocktails that use "7-Up" in their preparation.
+<p>
+  If you pay attention to the filters at the left side of the screen, you can see that the "7-Up" option in the ingredient list is selected. So if you want to see the other ingredient options, you just have to click on them.
+</p>
+<p>
+  In this case, we just have 4 cocktails that have "7-Up" as one of their ingredients.
+</p>
+
 ![Screen Shot Seaching by ingredient 3][screenshot-search-ingredient3]
 
 ### Filter results by type
