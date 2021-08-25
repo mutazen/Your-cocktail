@@ -95,7 +95,7 @@
 
 In simple words, we want to help everyone to find their favorite cocktail. In order to do that, we have developed this website to give them a way to search information about drinks based on their features. In an easy, simple and intuitive way.
 
-To acomplish our objective, this website is able to:
+To accomplish our objective, this website is able to:
 * Search cocktail by name, type, category or ingredient.
 * Filter search results by cocktail type, category or ingredient.
 * Show information about cocktails features, their preparation instructions and their ingredients.
@@ -250,7 +250,7 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 ![Screen Shot Filer Results by type 1][screenshot-filter-type1]
 
 <p>
-  At the time that we clicked the option, we can observe that the cocktails displayed have changed. That is because it is showing the cocktail that have "coffee" on their name and are alcoholic cocktails.
+  At the time that we clicked the option, we can observe that the cocktails displayed have changed. That is because it is showing cocktails that have "coffee" on their name and are alcoholic cocktails.
 </p>
 <p>
   As result of this filter, we have found 9 coffees that have alcohol. 
@@ -259,7 +259,22 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 ![Screen Shot Filer Results by type 2][screenshot-filter-type2]
 
 ### Filter results by category
+<p>
+  If we want to filter the results by cocktail category, we have to start searching cocktails using any other parameter.
+</p>
+<p>
+  In this example, we have searched cocktails that have the word "coffee" on their names and we want to see how many of them belong to the "ordinary drink" category. So in the search result page, at the left controls, we click on the "ordinary drink" option in the category type list.
+</p>
+
 ![Screen Shot Filer Results by category 1][screenshot-filter-category1]
+
+<p>
+  Once we have clicked the option, we can observe that the cocktails displayed have changed. That is because it is showing cocktails that have "coffee" on their name and that belongs to the "ordinary drink" category.
+</p>
+<p>
+  We can observe that only one coffee that belong to the "ordinary drink" category. 
+</p>
+
 ![Screen Shot Filer Results by category 2][screenshot-filter-category2]
 
 ### Filter results by ingredient
