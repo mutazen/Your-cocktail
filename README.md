@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/mutazen/Your-cocktail">
-    <img src="src/assets/logo-2.png" alt="Logo" width="300" height="150">
+    <img src="src/assets/logo-2.png" alt="Logo" width="450" height="200">
   </a>
 
   <p align="center">
@@ -75,6 +75,9 @@
         </li>
         <li>
           <a href="#show-ingredient-information">Show ingredient information</a>
+        </li>
+        <li>
+          <a href="#adapted-to-small-devices">Adapted to small devices</a>
         </li>
       </ul>
     </li>
@@ -325,6 +328,40 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 
 ![Screen Shot Ingredient Information 2][screenshot-show-ingredient-info2]
 
+### Adapted to small devices
+<p>
+ One of the fundamental goals of this website is to be able to be displayed on any device. So we started its design having in mind the mobile first concept.
+</p>
+<p>
+ In order to that, we designed our home page to be very simple. So as it increases its width, we add more elements and we adapted them as long the width increase.
+</p>
+<p align="center">
+  <img src="readme-images/mobilefirst-1.JPG" alt="Logo" width="500" height="450">
+</p>
+<p>
+  To save more space we hide navbar button within a collapse element that can be open using a toggle button. Thank to this method the user can access to this controls when they need them or hide them when they aren´t useful. 
+</p>
+<p align="center">
+  <img src="readme-images/mobilefirst-2.JPG" alt="Logo" width="500" height="450">
+</p>
+<p>
+  In the search result page, we have the same problem that we have in the navbar. To solve it, we hide the filters controls to give all the space to show the search results in a better way. But we left a toggle button so the users are able to access to the filter controls if need them.
+</p>
+<p align="center">
+  <img src="readme-images/mobilefirst-3.JPG" alt="Logo" width="500" height="450">
+</p>
+<p>
+  We use a offcanvas element to show the filter controls. Thank to this technique, the user can see the control properly and make of them without any problem. 
+</p>
+<p align="center">
+  <img src="readme-images/mobilefirst-4.JPG" alt="Logo" width="500" height="450">
+</p>
+<p>
+ The pages that show information about cocktails and ingredients are ready to show all the information that they have in a proper way. Independently of user's device.
+</p>
+<p align="center">
+  <img src="readme-images/mobilefirst-5.JPG" alt="Logo" width="325" height="470">
+</p>
 
 <!-- ROADMAP -->
 ## Roadmap
