@@ -278,14 +278,39 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 ![Screen Shot Filer Results by category 2][screenshot-filter-category2]
 
 ### Filter results by ingredient
+<p>
+  To filter the search results by their ingredient, we have to start searching cocktails using any other parameter.
+</p>
+<p>
+  In this example, we have searched cocktails that have 'alcoholic' on their type and we want to see how many of them use "amaretto" as ingredient in their preparation. So in the search result page, at the left controls, we click on the "amaretto" option in the ingredient type list.
+</p>
+
 ![Screen Shot Filer Results by ingredient 1][screenshot-filter-ingredient1]
+
+<p>
+  At time that we have clicked the option, we can observe that the cocktails displayed have changed. That is because it is showing alcoholic cocktails that have "amaretto" as one of their ingredients.
+</p>
+
 ![Screen Shot Filer Results by ingredient 2][screenshot-filter-ingredient2]
 
 ### Show cocktail information
+<p>
+  If we want more information about any cocktail, we only have to click on it in the seach cocktail page.
+</p>
+<p>
+  In this example, we want to see more information about the cocktail named "110 in the shade". So we click on it.
+</p>
+
 ![Screen Shot Cocktail Information 1][screenshot-show-cocktail-info1]
+
+<p>
+ In this new screen, we can see more information about the cocktail. Their name, category, type, type of glass used to serve it, preparation instruction and a list of ingredients with their measure
+</p>
+
 ![Screen Shot Cocktail Information 2][screenshot-show-cocktail-info2]
 
 ### Show ingredient information
+
 ![Screen Shot Ingredient Information 1][screenshot-show-ingredient-info1]
 ![Screen Shot Ingredient Information 2][screenshot-show-ingredient-info2]
 
