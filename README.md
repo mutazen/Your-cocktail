@@ -155,8 +155,33 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 ![Screen Shot Seaching by name 2][screenshot-search-name2]
 
 ### Search cocktail by type
+<p>
+  To search a cocktail by its type, we have to click on the "types" button in the left side of the navbar.
+</p>
+
 ![Screen Shot Seaching by type 1][screenshot-search-type1]
+
+<p>
+  In the new screen, we can see the different types of cocktails: "Alcoholic", "Non alcoholic" and "Optional alcohol".
+</p>
+<p>
+  The alcoholic cocktails are cocktails that have some percentage of alcohol, the non alcoholic cocktails don't have alcohol and optional alcohol cocktails could have alcohol or not.
+</p>
+<p>
+  In this example, we are going to show alcoholic cocktails. So we just have to click on the "Alcoholic" option in the type list.
+</p>
+
 ![Screen Shot Seaching by type 2][screenshot-search-type2]
+
+<p>
+  At the next screen, we can see the alcoholic cocktails that we have.
+<p>
+  If you pay attention to the filters at the left side of the screen, you can see that the "Alcoholic" option of the drink type list is selected. So if you want to see the other drink types options, you just have to click on them.
+</p>
+<p>
+  As result of the search, we have 100 alcoholic cocktails to show.
+</p>
+
 ![Screen Shot Seaching by type 3][screenshot-search-type3]
 
 ### Search cocktail by category
@@ -214,8 +239,6 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
