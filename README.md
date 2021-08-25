@@ -3,7 +3,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -86,6 +85,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#special-thanks">Special Thanks</a></li>
   </ol>
 </details>
 
@@ -140,6 +140,7 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+We have a demo if you want to follow the instructions below. <a href="https://mutazen.github.io/Your-cocktail">View Demo</a>
 ### Search cocktail by name
 <p>
   To search a cocktail by its name, we can introduce its name into the input in the right side of the navbar and press the enter key or click on the 
@@ -389,11 +390,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
+<p>
+  Daniel Saavedra - https://www.linkedin.com/in/danielsavgem/
+</p>
+<p>
+  Jeremy Camacho - https://www.linkedin.com/in/jeremycamacholugo/
+</p>
+<p>
+  Project Link: https://github.com/mutazen/Your-cocktail
+</p>
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -402,8 +407,15 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
 
+## Special thanks
 
+This website initially was a result of an exercise of Reboot Academy's bootcamp (ed. May-Jul 2021) but we keep working on it, giving it more functionalities and making it better because we loved the idea and we used it to test the skills that we learned. So we want to thank our instructors for their support and their patience. Thank you guys, you are the best!
 
+We want to thank to @othneildrew for share their template for this readme. 
+
+<p align="center">
+  https://github.com/othneildrew/Best-README-Template
+</p>
 
 
 
