@@ -240,7 +240,22 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 ![Screen Shot Seaching by ingredient 3][screenshot-search-ingredient3]
 
 ### Filter results by type
+<p>
+  If we want to filter the results by cocktail type, we have to start searching cocktails using any other parameter.
+</p>
+<p>
+  In this example, we have searched cocktails that have the word "coffee" on their names and we want to see how many of them have alcohol. So in the search result page, at the left controls, we click on the alcoholic option in the drink type list.
+</p>
+
 ![Screen Shot Filer Results by type 1][screenshot-filter-type1]
+
+<p>
+  At the time that we clicked the option, we can observe that the cocktails displayed have changed. That is because it is showing the cocktail that have "coffee" on their name and are alcoholic cocktails.
+</p>
+<p>
+  As result of this filter, we have found 9 coffees that have alcohol. 
+</p>
+
 ![Screen Shot Filer Results by type 2][screenshot-filter-type2]
 
 ### Filter results by category
