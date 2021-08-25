@@ -310,8 +310,19 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 ![Screen Shot Cocktail Information 2][screenshot-show-cocktail-info2]
 
 ### Show ingredient information
+<p>
+  If we want more information about certain ingredient, we only have to click on it in the cocktail detail page.
+</p>
+<p>
+  In this example, we are in the cocktail which name is "110 in the shade" information page. In this page, we want more information about an ingredient called "Lager". So we click on it in the ingredient list. 
+</p>
 
 ![Screen Shot Ingredient Information 1][screenshot-show-ingredient-info1]
+
+<p>
+ In this new screen, we can see more information about the ingredient "Lager". Their name, category, if it has alcohol, their alcohol by volume and description. Also we have a button to search cocktails that use this ingredient on their preparation. 
+</p>
+
 ![Screen Shot Ingredient Information 2][screenshot-show-ingredient-info2]
 
 
@@ -319,7 +330,6 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 ## Roadmap
 
 See the [open issues](https://github.com/mutazen/Your-cocktail/issues) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
@@ -351,17 +361,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+
 
 
 
