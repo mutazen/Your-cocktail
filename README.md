@@ -185,8 +185,30 @@ We use TheCocktailDB's API as a source of information for this web site. Thanks 
 ![Screen Shot Seaching by type 3][screenshot-search-type3]
 
 ### Search cocktail by category
+<p>
+  To search a cocktail by its category, we have to click on the "category" button in the navbar.
+</p>
+
 ![Screen Shot Seaching by category 1][screenshot-search-category1]
+
+<p>
+  At this new screen, we can see the cocktails category list. There are eleven different categories.
+</p>
+<p>
+  In this example, we want to check the cocktails that belong to the "ordinary drink" category. So we click on the "ordinary drink" option in the categories list.
+</p>
+
 ![Screen Shot Seaching by category 2][screenshot-search-category2]
+
+<p>
+  In this screen, we can see all the ordinary drink cocktails.
+<p>
+  If you pay attention to the filters at the left side of the screen, you can see that the "Ordinary drink" option of the category list is selected. So if you want to see the other categories options, you just have to click on them.
+</p>
+<p>
+  In this case, we have 100 cocktails that belong to the "ordinary drink" category.
+</p>
+
 ![Screen Shot Seaching by category 3][screenshot-search-category3]
 
 ### Search cocktail by ingredient
